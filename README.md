@@ -1,31 +1,30 @@
-🚀 TrackIn: Candidature Tracking App
+# 🚀 TrackIn: Candidature Tracking App
 
 TrackIn è un'applicazione web full-stack sviluppata per gestire e monitorare in modo efficiente il proprio percorso di ricerca lavorativa. Il progetto nasce con l'obiettivo di centralizzare il tracking delle candidature, permettendo di organizzare ogni step del processo di selezione.
 
-🛠️ Tecnologie Utilizzate
-Il progetto segue un'architettura Monorepo per mantenere sincronizzati il front-end e il back-end.
+## 🛠️ Tecnologie Utilizzate
 
-Backend
-Java 17+
+Il progetto segue un'architettura **Monorepo** per mantenere sincronizzati il front-end e il back-end.
 
-Spring Boot: per la creazione delle API REST.
+### Backend
+* **Java 17+**
+* **Spring Boot**: per la creazione delle API REST.
+* **Spring Data JPA**: per la gestione della persistenza dei dati.
+* **H2 Database**: database relazionale in-file per la persistenza dei dati.
 
-Spring Data JPA: per la gestione della persistenza dei dati.
+### Frontend
+* **React**
+* **Vite**: per un ambiente di sviluppo rapido e leggero.
+* **CSS3**: per uno stile pulito e moderno.
 
-H2 Database: database relazionale in-file per la persistenza dei dati in locale.
+## 🏗️ Struttura del Progetto
 
-Frontend
-React
-
-Vite: per un ambiente di sviluppo rapido e leggero.
-
-CSS3: per uno stile pulito e moderno.
-
-🏗️ Struttura del Progetto
-Plaintext
+```text
 trackin-app/
 ├── backend/       # API REST con Spring Boot
 └── frontend/      # Interfaccia utente con React
+
+
 🚀 Come avviare il progetto
 Per far girare l'applicazione in locale, segui questi passaggi:
 
