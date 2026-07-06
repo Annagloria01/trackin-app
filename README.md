@@ -1,4 +1,5 @@
 🚀 TrackIn: Candidature Tracking App
+
 TrackIn è un'applicazione web full-stack sviluppata per gestire e monitorare in modo efficiente il proprio percorso di ricerca lavorativa. Il progetto nasce con l'obiettivo di centralizzare il tracking delle candidature, permettendo di organizzare ogni step del processo di selezione.
 
 🛠️ Tecnologie Utilizzate
